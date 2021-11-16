@@ -94,16 +94,21 @@ body{
   padding: 5px 30px;
   line-height: 100px;
 }
-
+.side-bar .menu .item a{
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+  padding: 5px 30px;
+  line-height: 60px;
+}
 .side-bar .menu .item a:hover{
   background: #030303;
   transition: 0.3s ease;
 }
-
 .side-bar .menu .item i{
   margin-right: 15px;
 }
-
 .side-bar .menu .item a .dropdown{
   position: absolute;
   right: 0;
